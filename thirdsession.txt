@@ -1,1 +1,4 @@
-This is session 3 which I am going to modify once I go home with whatever I learned in session3 class!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-git status = shows the status of any additions and/or modifications
+-git add * = adds the files to local/local repository
+-git commit -m "___" = commits to local repository
+-git push origin master = push file to github
