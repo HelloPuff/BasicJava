@@ -1,0 +1,3 @@
+1. User should be able to log into his account and send and receive e-mails.
+2. Create a class variable ID in the class. Make a constructor. Create a mail object with the ID.
+3. 

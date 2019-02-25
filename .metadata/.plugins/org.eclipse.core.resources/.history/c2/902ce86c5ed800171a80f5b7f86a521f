@@ -1,0 +1,41 @@
+import java.time.YearMonth;
+import java.util.Date;
+
+public class Application {
+
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		s1.name = "Paul";
+		s1.age = 12;
+		s1.ID = 858754;
+		s1.getAttendance();
+		int result = s1.getGrades();
+		System.out.println(result);
+
+		Teacher t1 = new Teacher();
+		t1.name = "Paul";
+		t1.age = 72;
+		t1.ID = 754894;
+		t1.getAttendance();
+
+		Staff stf = new Staff();
+		stf.name = "Paul";
+		stf.age = 43;
+		stf.ID = 765897;
+		stf.getAttendance();
+		
+		System.out.println(Math.sqrt(2) + " is an estimate of the square root of 2!!!");
+		System.out.println(Math.cbrt(2) + " is an estimate of the cube root of 2!!!");
+		System.out.println(Math.PI + " is an estimate of pi!!!");
+		System.out.println(Math.abs(-583783) + " is the absolute value of -583783!!!");
+		
+		Date now = new Date();
+		System.out.println(now + " is the current date and time!!!");
+		
+		YearMonth y = YearMonth.of(2000, 2);
+		System.out.println(y.lengthOfMonth());
+		System.out.println(y.isLeapYear());
+
+	}
+
+}

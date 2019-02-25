@@ -1,0 +1,19 @@
+
+public class Gamer {
+	void create() {
+		System.out.println("Creating tower.");
+
+		Tower t1 = new Tower();
+
+		DiscManager dm1 = new DiscManager();
+		Disk d1 = dm1.getSmallDisc();
+		Disk d2 = dm1.getMediumDisc();
+		Disk d3 = dm1.getLargeDisc();
+		
+		t1.addDisc(d1);
+		t1.addDisc(d2);
+		t1.addDisc(d3);
+		t1.draw();
+	}
+
+}

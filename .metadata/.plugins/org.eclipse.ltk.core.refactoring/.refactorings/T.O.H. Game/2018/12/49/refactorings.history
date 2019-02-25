@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Tower&apos; to &apos;TowerPanel&apos;&#x0D;&#x0A;- Original project: &apos;T.O.H. Game&apos;&#x0D;&#x0A;- Original element: &apos;Tower&apos;&#x0D;&#x0A;- Renamed element: &apos;TowerPanel&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Tower&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Tower.java[Tower" matchStrategy="1" name="TowerPanel" qualified="false" references="true" similarDeclarations="false" stamp="1543802124823" textual="false" version="1.0"/>
+</session>

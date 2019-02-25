@@ -1,0 +1,19 @@
+
+public class Disk {
+	int size;
+	
+	Disk(int size){	
+		this.size = size;
+	}
+	
+	void draw() {
+		System.out.println("------");
+	
+		for(int i=0;i<size;i++){
+			System.out.print("-");
+		
+		}
+		
+	}
+
+}
