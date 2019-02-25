@@ -1,0 +1,39 @@
+Data Type, Variable, Assigment, Constant
+-Data Type: int, String, double
+-Variable: Can change
+-Assigment: =, <, >, <=, >=
+-Constant: Says the same or stays constant
+
+Ex.
+Int x = 2
+
+Ex.
+String name = Aayush Neil Surya
+
+Ex.
+double y = 2.5
+
+-Syntax: Grammar or punctuation
+-Difference between = and ==
+       -= is an assigment
+       -== is a comparison or question
+Ex.
+age==15 ---> is the age 15???
+age=15 ---> the age is 15!!!
+
+-Conditions
+Ex.
+if(age==15) {
+       ______________________
+}
+else(_______)
+
+-For Loop
+for(initialization ; condition ; increment) {
+	Sys
+}
+
+Ex.
+for(x = 0 ; x < 10 ; x = x + 1) {
+	System.out.println("Hello Worlds");
+}
